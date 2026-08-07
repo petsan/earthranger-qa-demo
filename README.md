@@ -42,6 +42,7 @@ docker compose logs -f
 # Open in browser
 open http://localhost:3000
 
-# Run the tests
+# Install npm and run the tests
+npm install
 npm test
 ```

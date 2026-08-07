@@ -41,4 +41,7 @@ docker compose logs -f
 
 # Open in browser
 open http://localhost:3000
+
+# Run the tests
+npm test
 ```

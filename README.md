@@ -14,51 +14,30 @@ A lightweight, production-ready demo demonstrating real-time geospatial tracking
 | Contract-ready delivery | Zero-config setup, Dockerized deployment, CI-ready structure, deterministic execution |
 
 ## 🛠️ Quick Start
+Get up and running locally in three simple steps:
+
 ```bash
-# 1. Clone & install
-git clone https://github.com/petsan/earthranger-qa-demo.git/ && cd earthranger-qa-demo
+# 1. Clone & install dependencies
+git clone https://github.com/petsan/earthranger-qa-demo.git && cd earthranger-qa-demo
 npm install
 
-# 2. Run locally
+# 2. Run the application locally
 npm start
-Open http://localhost:3000
+# Open http://localhost:3000 in your browser
 
-# 3. Run QA suite
+# 3. Run the full QA suite
 npm test
 
-## 🐳 Docker Deployment
-Run the application in a fully containerized environment with a single command. Includes health checks, auto-restart policies, and isolated networking.
+## 🐳 Docker Quick Start
+Get up and running with Docker:
 
-# Prerequisites
-- Docker installed
-- Docker Compose (v2+ recommended)
-
-# Docker Quick Start
 ```bash
-# 1. Build and start the container in the background
+# Build and start the container in the background
 docker compose up -d
 
-# 2. View container logs in real-time
+# View container logs in real-time
 docker compose logs -f
 
-# 3. Open in browser
+# Open in browser
 open http://localhost:3000
 
-## Running Tests Against the Container
-```bash
-# 1. Run full test suite
-npm test
-
-# 2. Run with HTML report generation
-npm test -- --reporter=html
-
-# 3. Run specific test file
-npm test -- tests/earthranger_tracker.spec.ts
-
-## Cleanup & Management
-```bash
-# 1. Stop and remove containers + networks
-docker compose down
-
-# 2. Stop containers but keep data/volumes
-docker compose stop

@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Test Artifacts
+test-results/
+playwright-report/
+playwright/.cache/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Environment
+.env
+.env.local

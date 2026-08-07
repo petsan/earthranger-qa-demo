@@ -27,7 +27,7 @@ npm start
 
 # 3. Run the full QA suite
 npm test
-
+```
 
 ## 🐳 Docker Quick Start
 Get up and running with Docker:
@@ -41,4 +41,4 @@ docker compose logs -f
 
 # Open in browser
 open http://localhost:3000
-
+```

@@ -1,6 +1,3 @@
-Copyright (c) 2026 Piotr Sankiewicz. All rights reserved.
-Unauthorized copying, distribution, or reuse of this file, via any medium, is strictly prohibited.
-
 # 🌲 Discovery Park Conservation Tracker & QA Demo
 A lightweight, production-ready demo demonstrating real-time geospatial tracking, API validation, AI-augmented testing guardrails, and deterministic Playwright automation. Built to mirror EarthRanger's Senior QA Automation Engineer requirements.
 
